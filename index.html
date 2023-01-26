@@ -1,32 +1,38 @@
-<html lang="ru">
+<!doctype html>
+<html amp lang="ru">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Заголовок страницы</title>
-    
-  
+    <link rel="canonical" href="https://inekit.github.io/fs-lesson-11/index.html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Заголовок страницы в OG">
     <meta property="og:description" content="Описание страницы в OG">
     <meta property="og:image" content="https://example.com/image.jpg">
     <meta property="og:url" content="https://example.com/">
-    <script>
-        const ts1 = performance.now()
-        window.addEventListener('DOMContentLoaded', (event) => {
-            console.log(performance.now() - ts1)
-        });
-        window.addEventListener('load', (event) => {
-            console.log(performance.now() - ts1)
-        });
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "Open-source framework for publishing content",
+        "datePublished": "2015-10-07T12:02:41Z",
+        "image": [
+          "logo.jpg"
+        ]
+      }
     </script>
-    <link rel="stylesheet/less" type="text/css" href="style.less" />
-    <script src="https://cdn.jsdelivr.net/npm/less" ></script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+    <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+    <style amp-custom>body nav>.nav-top div.nav-call-block,body nav>.nav-top ul.nav-account-block>li a{color:#c03030;font-size:10px;line-height:10px;display:block;text-transform:uppercase}body .benefits-block,section{margin:65px 40px;width:calc(100% - 2 * 40px)}.interview-block::after,body nav::after{border-left:200px solid transparent;border-right:200px solid transparent}body{margin:0;padding:0;position:relative;background:linear-gradient(180deg,#ffbcbc 65px,#fff 65px)}body::after{content:" ";position:absolute;height:calc(100% - 50px);width:15px;background-color:#ffbcbc;top:50px;right:0}body nav{position:relative;height:165px}body nav>.nav-top{padding:0 40px;height:37px;background-color:#f9b2b2;z-index:999;position:relative}body nav>.nav-top div.nav-call-block{position:absolute;top:50%;transform:translateY(-50%);left:40px;margin-left:25px}body nav>.nav-top div.nav-call-block amp-img{position:absolute;top:.5px;left:-25px}body nav>.nav-top ul.nav-account-block{position:absolute;top:50%;transform:translateY(-50%);right:40px;display:flex;flex-direction:row;margin:0 -20px 0 0;padding:0}body nav>.nav-top ul.nav-account-block>li{list-style:none;height:10px;margin:0;text-align:center}body nav>.nav-top ul.nav-account-block>li:not(:last-of-type){border-right:1px solid #c03030}body nav>.nav-top ul.nav-account-block>li a{text-decoration:none;margin-top:0;font-weight:400;padding:0 20px}body nav>.nav-bottom{padding:0 40px;margin-top:27px;height:100px;position:relative}body nav>.nav-bottom .logo-container{position:absolute;top:calc(50% - 10px);transform:translateY(-50%);left:0;right:0;width:fit-content;margin:auto}body nav>.nav-bottom ul.nav-shop-block{position:absolute;top:calc(50% - 25px);transform:translateY(-50%);left:40px;display:flex;flex-direction:row;margin:0;padding:0}body nav>.nav-bottom ul.nav-contacts-block>li,body nav>.nav-bottom ul.nav-shop-block>li{list-style:none}body nav>.nav-bottom ul.nav-shop-block>li a{text-decoration:none;color:#000;font-style:italic;font-size:20px;margin-right:25px}body nav>.nav-bottom ul.nav-contacts-block{position:absolute;top:calc(50% - 15px);transform:translateY(-50%);right:40px;display:flex;flex-direction:row;margin:0;padding:0}body nav>.nav-bottom ul.nav-contacts-block>li a{height:30px;width:30px;border-radius:15px;background-color:#e0e0e0;display:block;margin-left:20px;position:relative}body nav>.nav-bottom ul.nav-contacts-block>li a amp-img{position:absolute;top:0;bottom:0;left:0;right:0;margin:auto}body nav>.nav-bottom div.nav-menu-dropdown{height:19px;background-color:#000;margin-left:55px;margin-top:-2px;color:#fff;text-transform:uppercase;padding:8px;font-size:11px}body nav>.nav-bottom div.nav-menu-dropdown span{margin-left:8px;line-height:18px}body nav>.nav-bottom div.nav-menu-dropdown amp-img{margin-left:5px}body nav::after{content:" ";position:absolute;left:0;right:0;margin:auto;width:0;height:0;border-top:60px solid #000;display:none}body .cover>.view-1{background-image:url("./img/cover.png");background-size:100%;height:46.8vw}body .cover>* .cover-link-button{height:3.2vw;width:12vw;background-color:#f09d66;position:absolute;top:calc(46.8vw + 165px);left:50%;transform:translate(-50%,-530%);text-decoration:none;color:#fff;text-transform:uppercase;font-size:1.8vw;line-height:3.2vw;text-align:center}body .cover>* .cover-info-block{height:17vw;width:17vw;background-color:#d9bf8f;position:absolute;top:calc(46.8vw + 165px);left:50%;transform:translate(-50%,-220%)}body .cover>* .cover-info-block .cover-info{display:block;text-transform:uppercase;text-align:center;font-weight:600;position:absolute;left:0;right:0}body .cover>* .cover-info-block .cover-info:first-child{margin-top:11%}body .cover>* .cover-info-block .cover-info.span{color:#fff;font-size:1.4vw;font-weight:400}body .cover>* .cover-info-block .cover-info.span:first-of-type{top:3%}body .cover>* .cover-info-block .cover-info.span:not(:first-of-type){top:57%}body .cover>* .cover-info-block .cover-info.header{color:#000;font-size:3.5vw;top:30%}body .cover>* .cover-info-block .cover-info.subheader{bottom:15%;color:#000;font-size:2.2vw}body .benefits-block{height:6vw;position:relative}body .benefits-block .benefit{position:absolute;top:0;height:100%;background-color:#d9bf8f}body .benefits-block .benefit::after{content:"";width:0;height:0;position:absolute;left:100%;border-top:3vw solid transparent;border-left:3vw solid #d9bf8f;border-bottom:3vw solid transparent}body .benefits-block .benefit>*{position:absolute}body .benefits-block .benefit>amp-img{position:absolute;height:50%;top:25%;left:10%}body .benefits-block .benefit>.benefit-title{text-transform:uppercase;position:absolute;color:#fff;font-size:2vw;margin-left:30%;top:20%}body .benefits-block .benefit>.benefit-text{text-transform:uppercase;position:absolute;color:#fff;font-size:.8vw;margin-left:30%;top:70%}body .benefits-block .benefit.left{width:30%}body .benefits-block .benefit.left::after{z-index:100}body .benefits-block .benefit.center{left:0;right:0;width:35%;margin:auto;background-color:#000}body .benefits-block .benefit.center>amp-img{left:15%}body .benefits-block .benefit.center::before{content:"";width:0;height:0;position:absolute;left:0;border-top:3vw solid transparent;border-left:3vw solid #fff;border-bottom:3vw solid transparent;z-index:inherit}body .benefits-block .benefit.center::after,body .benefits-block .benefit.right::after{content:"";width:0;height:0;position:absolute;border-top:3vw solid transparent;border-left:unset;border-bottom:3vw solid transparent}body .benefits-block .benefit.center::after{left:calc(100% - 3vw);border-right:3vw solid #fff}body .benefits-block .benefit.right{right:0;width:30%}body .benefits-block .benefit.right::after{left:-3vw;border-right:3vw solid #d9bf8f}@media screen and (max-width:1024px){body nav{height:fit-content}body nav .nav-top{height:90px}body nav .nav-top div.nav-call-block{position:relative;left:0;top:30px}body nav .nav-top ul.nav-account-block{position:relative;top:50px;margin-right:0;left:-20px;right:0}body nav .nav-bottom{height:200px;margin-top:0}body nav .nav-bottom .logo-container{top:140px}body nav .nav-bottom ul.nav-shop-block{position:relative;justify-content:space-between;left:0;top:30px}body nav .nav-bottom ul.nav-shop-block a{margin-right:0}body nav .nav-bottom ul.nav-contacts-block{position:relative;justify-content:space-between;right:0;top:50px}body nav .nav-bottom ul.nav-contacts-block a{margin-left:0}body .cover .view-1{height:80vw;background-size:260%}body .cover .cover-info-block{top:calc(96.8vw + 300px);height:40vw;width:40vw}body .cover .cover-info-block .cover-info{display:block;text-transform:uppercase;text-align:center;font-weight:600;position:absolute;left:0;right:0}body .cover .cover-info-block .cover-info:first-child{margin-top:11%}body .cover .cover-info-block .cover-info.span{color:#fff;font-size:3vw;font-weight:400}body .cover .cover-info-block .cover-info.span:first-of-type{top:3%}body .cover .cover-info-block .cover-info.span:not(:first-of-type){top:57%}body .cover .cover-info-block .cover-info.header{color:#000;font-size:7vw;top:30%}body .cover .cover-info-block .cover-info.subheader{bottom:15%;color:#000;font-size:5vw}body .cover .cover-link-button{top:calc(96.8vw + 300px);height:8vw;width:33vw;font-size:1.2rem;line-height:8vw}}@media screen and (max-width:496px){body footer .social-icons li{height:40px;width:40px}body footer .social-icons li a{width:inherit;height:inherit}body footer .social-icons li a amp-img{margin-top:8px;margin-left:0;width:unset}body .items-big.grid,body .items-normal.columns-4{display:block}body .items-big.grid .item{height:calc(100vw - 80px)}body .items-big.grid .item:first-child{height:calc(170vw - 80px)}body footer{height:fit-content;text-align:center}body footer .input-with-button{margin-bottom:20px}body footer .footer-top>.footer-column.big .input-with-button{background-color:#fff;width:calc(100vw - 80px);margin-top:60px}body footer .footer-top>.footer-column.big .input-with-button input{border:none;background-color:transparent;height:40px;padding-left:30px;width:60%}body footer .footer-top>.footer-column.big .input-with-button button{background-color:#323030;border:none;height:40px;color:#fff;width:100px;margin:5px}body .benefits-block{height:10vw}body .benefits-block .benefit-text,body .benefits-block .benefit::after,body .benefits-block .benefit::before,body .interview-block.columns-2::after{display:none}body .benefits-block .benefit-title{position:absolute;width:40%;margin:auto;right:20%;top:25%}body .items-normal.columns-4 .item{height:calc(100vw - 2 * 40px);margin-bottom:3vw}body .items-normal.columns-4 .sale{width:10vw;height:calc(10vw - 3vw);border-radius:100px;position:absolute;top:3vw;left:3vw;background-color:#feab12;color:#fff;font-size:4vw;text-align:center;padding-top:3vw}body .items-normal.columns-4 .sale>.procent{font-size:2vw;display:block;margin-top:-3vw;margin-left:6vw}body .brand-items.columns-6{display:block;margin-bottom:-150px}body .brand-items.columns-6 .item{height:calc(45vw - 2 * 40px + 100px);width:100%;background-size:calc(100% - 100px);background-repeat:no-repeat;margin:50px}body .interview-block.columns-2{display:block;height:unset}body .interview-block.columns-2 .interview-left,body .interview-block.columns-2 .interview-right{padding-top:10px}body .interview-block.columns-2 .interview-left amp-img,body .interview-block.columns-2 .interview-right amp-img{height:40vw;padding-top:50px}body .interview-block.columns-2 .interview-left p,body .interview-block.columns-2 .interview-right p{font-size:1rem}body .interview-block.columns-2 .interview-left h6,body .interview-block.columns-2 .interview-right h6{font-size:1.7rem}body .interview-block.columns-2 .interview-left span,body .interview-block.columns-2 .interview-right span{font-size:1.4rem}body .interview-block.columns-2 .interview-left{margin-left:30vw}body .interview-block.columns-2 .interview-left amp-img{margin-left:-35vw}body .interview-block.columns-2 .interview-right{margin-right:30vw;padding-bottom:30px}body .interview-block.columns-2 .interview-right amp-img{margin-right:-35vw}}footer .footer-top>.footer-column h6,footer .footer-top>.footer-column.big p{font-size:1.2rem;text-transform:uppercase}section{position:relative}section:last-of-type{margin-bottom:0}section h2{text-align:center;font-style:italic;margin-bottom:50px;display:block}section .grid{display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:1vw 1vw;grid-template-areas:". long ." ". long ."}section .grid>.item{background:url("./img/standart-bigitem.png") 0 0/100%;height:calc(33vw - (40px + .33vw));position:relative}section .grid>.item:first-child{background:url("./img/long_bigitem.png") 0 0/110% #f5f5f5;grid-area:long;height:100%}section .grid>.item .selector{transition:.3s;height:calc(100% - 60px);width:calc(100% - 60px);margin:30px;opacity:0;display:block;background-color:#000}section .grid>.item .selector::after{content:" ";position:absolute;display:block;background-color:#d9bf8f;height:1px;top:50%;width:60px;margin:auto;left:0;right:0;z-index:9}section .grid>.item .selector::before{content:" ";position:absolute;display:block;background-color:#d9bf8f;width:1px;left:50%;margin:auto;height:60px;top:0;bottom:0;z-index:9}section .grid>.item:hover .selector{opacity:1}.columns-2,.columns-4,.columns-6{display:flex;flex-direction:row;flex-wrap:wrap;gap:1rem}.columns-4>*{flex:1 1 calc((100% / 4) - 2rem)}.items-normal .item{height:25vw;background:url("./img/normal-item.png") 0 0/100%;position:relative}.items-normal .item .sale{width:4vw;height:calc(4vw - 1vw);border-radius:100px;position:absolute;top:1vw;left:1vw;background-color:#feab12;color:#fff;font-size:1.7vw;text-align:center;padding-top:1vw}.items-normal .item .sale>.procent{font-size:.8vw;display:block;margin-top:-1.6vw;margin-left:2.6vw}.items-normal .item::after{content:"+ ADD TO CART";text-align:center;color:#fff;position:absolute;bottom:10px;left:0;right:0;margin:auto}.items-normal .item::before{content:" ";transition:.3s;height:0;position:absolute;bottom:0;left:0;right:0;width:calc(80% - 80px);margin:auto;border-bottom:40px solid #000;border-left:40px solid transparent;border-right:40px solid transparent}.items-normal .item:hover{background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)) 0 0/100%,url("./img/normal-item.png") 0 0/100%}.items-normal .item:hover::before{border-bottom:40px solid #f0975c}.columns-2>*,.columns-6>*,footer .footer-top>.footer-column{flex:1}.brand-items{padding:30px 0;overflow:hidden}.brand-items .item{height:calc((((100vw / 6) - 2rem) - 80px)*.54);width:calc((100% / 6) - 22rem);margin:40px;background:url("./img/brand_image.png") 0 0/100%}.interview-block{height:30vw;margin-left:-40px;width:100%;padding:0 40px;background-color:#d9bf8f}.interview-block>.interview-left{text-align:left;margin-left:17vw;position:relative}.interview-block>.interview-left amp-img{margin-left:-17vw;top:5vw;height:20vw;position:absolute}.interview-block>.interview-left>span,.interview-block>.interview-right>span{font-style:italic;color:#fff;font-size:1.4vw;margin-top:12vw;display:block}.interview-block>.interview-left>h6,.interview-block>.interview-right>h6{font-size:2vw;font-style:italic;margin:3vw 0 1vw}.interview-block>.interview-left>p,.interview-block>.interview-right>p{text-transform:uppercase;color:#7f7e7e;font-size:1vw}.interview-block>.interview-right{text-align:right;margin-right:17vw;position:relative}.interview-block>.interview-right amp-img{margin-right:-17vw;top:5vw;height:20vw;right:0;position:absolute}.interview-block::after{content:" ";position:absolute;left:0;right:0;margin:auto;width:0;height:0;border-top:30px solid #fff}footer{background-color:#141414;color:#fff;padding:50px 40px}footer .social-icons{margin-bottom:2.33rem}footer .social-icons li{display:inline-block;height:60px;width:60px;border-radius:40px;background-color:#fff;margin-right:15px}footer .social-icons li>a>amp-img{margin-left:22px;margin-top:15px;width:15px}footer .pay-methods>span{color:#363636;display:block;width:300px}footer hr{background-color:#323030;height:1px;border:none;margin-top:50px;margin-bottom:30px}footer .footer-top>.footer-column.big{width:40%;flex:2}footer .footer-top>.footer-column.big p i{text-transform:lowercase}footer .footer-top>.footer-column.big .input-with-button{background-color:#fff;width:fit-content;margin-top:60px}footer .footer-top>.footer-column.big .input-with-button input{border:none;background-color:transparent;height:40px;padding-left:30px;width:300px}footer .footer-top>.footer-column.big .input-with-button button{background-color:#323030;border:none;height:40px;color:#fff;width:100px;margin:5px}footer .footer-top>.footer-column ul{list-style:none;margin:0;padding:0}footer .footer-top>.footer-column ul a{text-decoration:none;color:#666;font-size:1rem;margin-bottom:20px;display:block}</style>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
   </head>
   <body>
     <header>
       <nav>
         <div class="nav-top">
             <div class="nav-call-block">
-                <img src="./img/header_phone.png"/>
+                <amp-img src="./img/header_phone.png" alt="Phone" height="20" width="20"></amp-img>
                 <span>Call +001 555 801</span>
             </div>
             <ul class="nav-account-block">
@@ -44,16 +50,16 @@
                 <li><a href="index.html">Pages</a></li>
               </ul>
               <div class="logo-container">
-                  <img src="./img/header_logo.png"/>
+                <amp-img src="./img/header_logo.png" alt="Logo" height="150" width="400"></amp-img>
               </div>
               <ul class="nav-contacts-block">
-                  <li><a href="index.html"><img src="./img/header_fb.png"/></a></li>
-                  <li><a href="index.html"><img src="./img/header_twitter.png"/></a></li>
-                  <li><a href="index.html"><img src="./img/header_pinterest.png"/></a></li>
-                  <li><a href="index.html"><img src="./img/header_insta.png"/></a></li>
+                  <li><a href="index.html"><amp-img src="./img/header_fb.png" alt="FB" height="20" width="20"></amp-img></a></li>
+                  <li><a href="index.html"><amp-img src="./img/header_fb.png" alt="FB" height="20" width="20"></amp-img></a></li>
+                  <li><a href="index.html"><amp-img src="./img/header_fb.png" alt="FB" height="20" width="20"></amp-img></a></li>
+                  <li><a href="index.html"><amp-img src="./img/header_fb.png" alt="FB" height="20" width="20"></amp-img></a></li>
                   <div class="nav-menu-dropdown">
                     <span>rupiah</span>
-                    <img src="./img/header-dropdown.png"/>
+                    <amp-img src="./img/header-dropdown.png" alt="Dropdown" height="1024" width="1024"></amp-img>
                 </div>
               </ul>
               
@@ -81,17 +87,17 @@
         </div>
         <div class="benefits-block">
             <div class="benefit left">
-                <img src="./img/benefit-3.png"/>
+                <amp-img src="./img/benefit-3.png" alt="Benefit 3" height="40" width="40"></amp-img>
                 <span class="benefit-title">free shipping</span>
                 <span class="benefit-text">In Order Over 200</span>
             </div>
             <div class="benefit center">
-                <img src="./img/benefit-2.png"/>
+                <amp-img src="./img/benefit-2.png" alt="Benefit 2" height="40" width="40"></amp-img>
                 <span class="benefit-title">30-days returns</span>
                 <span class="benefit-text">Money Back Guarantee</span>
             </div>
             <div class="benefit right">
-                <img src="./img/benefit-1.png"/>
+                <amp-img src="./img/benefit-1.png" alt="Benefit 1" height="40" width="40"></amp-img>
                 <span class="benefit-title">24/7 support</span>
                 <span class="benefit-text">Lifestyme Support</span>
             </div>
@@ -146,13 +152,13 @@
             <h2>Customer Says</h2>
             <div class="interview-block columns-2">
                 <div class="interview-left">
-                    <img src="./img/girl.png"/>
+                    <amp-img src="./img/girl.png" alt="Girl" height="400" width="300"></amp-img>
                     <span>Sed ut perspiciatis<br/>unde omnis iste natus error sit<br/>voluptate #1</span>
                     <h6>Shaheer Sheikh</h6>
                     <p>Fashion Designer</p>
                 </div>
                 <div class="interview-right">
-                    <img src="./img/guy.png"/>
+                    <amp-img src="./img/guy.png" alt="Guy" height="400" width="300"></amp-img>
                     <span>Sed ut perspiciatis<br/>unde omnis iste natus error sit<br/>voluptate #1</span>
                     <h6>Shaheer Sheikh</h6>
                     <p>Designer</p>
@@ -204,11 +210,12 @@
         <div class="footer-column big">
             <h6>stay connected</h6>
             <ul class="social-icons">
-                <li><a class="facebook" href="#"><img src="./img/footer-fb.png"/></a></li>
-                <li><a class="twitter" href="#"><img src="./img/footer-fb.png"/></a></li>
-                <li><a class="dribbble" href="#"><img src="./img/footer-fb.png"/></a></li>
-                <li><a class="linkedin" href="#"><img src="./img/footer-fb.png"/></a></li>   
-                <li><a class="linkedin" href="#"><img src="./img/footer-fb.png"/></a></li>   
+                <amp-img src="./img/footer-fb.png" alt="Facebook Icon" height="40" width="40"></amp-img>
+                <li><a class="facebook" href="#"><amp-img src="./img/footer-fb.png" alt="Facebook Icon" height="40" width="40"></amp-img></a></li>
+                <li><a class="twitter" href="#"><amp-img src="./img/footer-fb.png" alt="Facebook Icon" height="40" width="40"></amp-img></a></li>
+                <li><a class="dribbble" href="#"><amp-img src="./img/footer-fb.png" alt="Facebook Icon" height="40" width="40"></amp-img></a></li>
+                <li><a class="linkedin" href="#"><amp-img src="./img/footer-fb.png" alt="Facebook Icon" height="40" width="40"></amp-img></a></li>   
+                <li><a class="linkedin" href="#"><amp-img src="./img/footer-fb.png" alt="Facebook Icon" height="40" width="40"></amp-img></a></li>   
             </ul>
             <p><b>subscribe <i>in</i> our news letter</b></p>
             <div class="input-with-button">
@@ -227,10 +234,6 @@
                 string of text lalala lalastri lalala lala</br>
                 string of text lalala lalastri lal</br>
             </span>
-            <img/>
-            <img/>
-            <img/>
-            <img/>
         </div>
       </div>
 
