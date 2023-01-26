@@ -9,6 +9,15 @@
     <meta property="og:description" content="Описание страницы в OG">
     <meta property="og:image" content="https://example.com/image.jpg">
     <meta property="og:url" content="https://example.com/">
+    <script>
+        const ts1 = performance.now()
+        window.addEventListener('DOMContentLoaded', (event) => {
+            console.log(performance.now() - ts1)
+        });
+        window.addEventListener('load', (event) => {
+            console.log(performance.now() - ts1)
+        });
+    </script>
   </head>
   <body>
     <header>
